@@ -1,3 +1,4 @@
+param storagePrefix string = 'stg'
 param storageName string = 'stg${uniqueString(resourceGroup().id)}'
 param location string = resourceGroup().location
 
